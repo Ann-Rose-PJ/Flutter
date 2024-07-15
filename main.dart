@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget{
         body:Center(
           child: ElevatedButton( 
             onPressed:() async {
-             await FlutterPhoneDirectCaller.callNumber('9074125989');
+             await FlutterPhoneDirectCaller.callNumber('1020304050');
             },
             child:const Text('Make call'),
           ),
